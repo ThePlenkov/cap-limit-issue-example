@@ -1,0 +1,23 @@
+{
+  "name": "cap-limit-issue-example",
+  "version": "1.0.0",
+  "description": "Sample application to show sap cap",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=*,sql cds watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePlenkov/cap-limit-issue-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePlenkov/cap-limit-issue-example/issues"
+  },
+  "homepage": "https://github.com/ThePlenkov/cap-limit-issue-example#readme",
+  "dependencies": {
+    "@cap-js/graphql": "^0.2.0",
+    "@capire/sflight": "github:SAP-samples/cap-sflight"
+  }
+}

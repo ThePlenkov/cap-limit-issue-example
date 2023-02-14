@@ -1,0 +1,14 @@
+{
+    "requires": {
+        "db": {
+            "kind":"sql",
+            "model":["db","srv"]
+        }
+    },
+    "protocols": {
+        "graphql": {
+            "path": "/graphql",
+            "impl": "@cap-js/graphql"
+        }
+    }
+}
